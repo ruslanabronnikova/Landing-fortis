@@ -1,0 +1,31 @@
+@font-face {
+	font-family: Evolventa;
+  font-weight: 400;
+	font-style: normal;
+	src: local('Evolventa'),
+		url('../../vendor/Fonts/Evolventa/Evolventa-Regular.woff') format('woff'),
+}
+
+@font-face {
+	font-family: Evolventa;
+	font-weight: 500;
+	font-style: italic;
+  src: local('Evolventa'),
+  url('../../vendor/Fonts/Evolventa/Evolventa-Oblique.woff') format('woff'),
+}
+
+@font-face {
+	font-family: Evolventa;
+	font-weight: 600;
+	font-style: normal;
+  src: local('Evolventa'),
+  url('../../vendor/Fonts/Evolventa/Evolventa-Bold.woff') format('woff'),
+}
+
+@font-face {
+	font-family: Evolventa;
+	font-weight: 800;
+	font-style: italic;
+  src: local('Evolventa'),
+  url('../../vendor/Fonts/Evolventa/Evolventa-BoldOblique.woff') format('woff'),
+}
