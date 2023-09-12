@@ -1,7 +1,11 @@
 @font-face {
-	font-family: IgraSans;
-  font-weight: 400;
-	font-style: normal;
-	src: local('IgraSans'),
-		url('../../vendor/Fonts/IgraSans/IgraSans.woff') format('woff'),
+    font-family: 'Igra Sans';
+    src: url('IgraSans.eot');
+    src: local('Igra Sans'), local('IgraSans'),
+        url('../Fonts/IgraSans/IgraSans.eot') format('embedded-opentype'),
+        url('../Fonts/IgraSans/IgraSans.woff') format('woff'),
+        url('../Fonts/IgraSans/IgraSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+

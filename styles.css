@@ -5,7 +5,7 @@
 }
 
 .body {
-  background-color: #EDEAE5;
+  background-color: #edeae5;
 }
 
 a {
@@ -23,14 +23,125 @@ li {
   --text-p: "Evolventa", sans-serif;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler {
+  color: #edeae5;
+  border-color: #edeae5;
+}
+
+.navbar-collapse {
+  margin-top: 20px;
+}
+
+.nav-link {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.nav-link:last-child {
+  margin-bottom: 0;
+}
+
 .title__h1 {
   font-size: 36px;
   color: var(--text-color);
   font-style: normal;
   font-weight: 400;
   font-family: var(--text-h);
-  max-width: 700px;
+  max-width: 800px;
   margin: 0;
+}
+
+.title__h2 {
+  font-size: 30px;
+  font-family: var(--text-h);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0;
+}
+
+.title__h2-light {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin: 0;
+  font-size: 30px;
+  font-family: var(--text-h);
+}
+
+.title__h3 {
+  color: var(--text-color);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55.5px;
+  margin: 0;
+}
+
+.title__h2-primary {
+  color: var(--primary-color);
+}
+
+.title__h3-primary {
+  color: var(--primary-color);
+}
+
+.subtitle__p1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  font-family: var(--text-p);
+  color: var(--text-color);
+  max-width: 450px;
+}
+
+.subtitle__p2 {
+  color: var(--text-color);
+  font-family: var(--text-p);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 0;
+}
+
+.subtitle__p2-primary {
+  color: var(--primary-color);
+}
+
+.subtitle__p3 {
+  max-width: 479px;
+  color: var(--white, #fff);
+  font-family: var(--text-p);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.image__3dhouse1 {
+  width: 412px;
+  height: 266px;
+  object-fit: cover;
+}
+
+.image__3dhouse2 {
+  width: 502px;
+  height: 337px;
+  object-fit: cover;
+}
+
+.image__3dhouse3 {
+  width: 424px;
+  height: 467px;
+  object-fit: cover;
 }
 
 .btn__primary {
@@ -42,23 +153,385 @@ li {
   align-items: center;
   border-radius: 10px;
   border: none;
-  max-width: 168px;
   height: 45px;
   line-height: 44.5px;
   align-items: center;
   padding: 10px 35px;
 }
 
-.bg__image {
+.btn__card {
+  color: white;
+  border-radius: 10px;
+  border: 1px solid var(--white, #fff);
+  background-color: transparent;
+  padding: 15px 30px;
+  font-family: var(--text-p);
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.bg__image-main {
   margin-top: 59px;
-  background-image: url('./image/image1.png');
+  background-image: url("./image/image1.png");
   width: 100%;
   height: 645px;
+  object-fit: cover;
+}
+
+.bg__image-advantages {
+  background-image: url("./image/image6.png");
+  height: 745px;
+  margin-top: 120px;
+  object-fit: cover;
+}
+
+.bg__image-contact {
+  background-image: url("./image/image7.png");
+  height: 745px;
+  margin-top: 120px;
+  object-fit: cover;
+}
+
+.container__custom {
+  height: 554px;
+  background-color: var(--primary-color);
+  border-radius: 50px;
+  padding: 64px 40px 126px 67px;
 }
 
 .container__numbers {
   background-color: white;
   border-radius: 20px;
   margin-top: 85px;
-  height: 468px;
+  padding: 35px 34px;
+}
+
+.container__advantages {
+  background-color: white;
+  border-radius: 50px;
+  height: 420px;
+  padding: 74px 34px 117px 34px;
+  align-items: center;
+  margin-top: 163px;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+}
+
+.card-number {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--text-p);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.card-text {
+  color: white;
+  font-family: var(--text-p);
+  font-size: 20px;
+  margin-top: 74px;
+  margin-left: 30px;
+  font-weight: 300;
+  max-width: 500px;
+}
+
+.card__text-icon {
+  margin: 0;
+  font-size: 15px;
+}
+
+.card:nth-child(even) {
+  margin-bottom: 0;
+}
+
+.card-img-bottom {
+  opacity: 50%;
+}
+
+.container__contact {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 350px;
+  height: 219px;
+  padding: 35px 34px;
+}
+
+.card__icon {
+  background-color: white;
+}
+
+.card__text-icon {
+  color: var(--text-color);
+}
+
+.card__number-advantages {
+  color: var(--primary-color);
+  font-family: var(--text-p);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card__custom-advantages {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+
+.card__custom-peace {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 25px;
+}
+
+.card__custom-tokens {
+  color: white;
+  background-color: transparent;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0;
+}
+
+.card__number-peace {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: var(--text-p);
+  color: var(--primary-color);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card__number-tokens {
+  color: var(--white, #fff);
+  font-family: var(--text-h);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text__link-contact {
+  color: var(--primary-color);
+  font-family: var(--text-p);
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.subtitle__contact {
+  color: var(--text-color);
+  font-family: var(--text-p);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14.5px;
+  opacity: 0.5;
+  max-width: 349px;
+}
+
+@media (max-width: 1028px) {
+  .col-md-8.col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-4.col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .title__h1 {
+    font-size: 30px;
+  }
+
+  .title__h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .subtitle__p1 {
+    max-width: 500px;
+  }
+
+  .card-text {
+    font-size: 15px;
+    max-width: 250px;
+  }
+
+  .subtitle__p2 {
+    font-size: 12px;
+  }
+
+  .subtitle__p3 {
+    font-size: 12px;
+  }
+
+  .card-number {
+    font-size: 20px;
+  }
+
+  .card__number-tokens {
+    font-size: 20px;
+  }
+
+  .card-text {
+    max-width: 330px;
+    font-size: 14px;
+  }
+
+  .btn__card {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .title__h2-light {
+    line-height: 29px;
+    font-size: 20px;
+  }
+
+  .text__link-contact {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .subtitle__contact {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .container__custom {
+    height: 100%;
+    padding: 64px 40px 50px 67px;
+  }
+
+  .container__contact {
+    max-width: 320px;
+  }
+
+  .container__advantages {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 566px) {
+  .container__btn-main {
+    margin-top: 16px;
+  }
+
+  .container__invite {
+    margin-top: 16px;
+  }
+
+  .container__bounty-card {
+    margin-top: 16px;
+  }
+
+  .container__contact {
+    margin-top: 50px;
+  }
+
+  .container__advantages {
+    margin-top: 60px;
+  }
+
+  .container__card-advantages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__custom {
+    padding-left: 20px;
+  }
+
+  .container__numbers {
+    margin-top: 60px;
+  }
+
+  .title__h1 {
+    font-size: 20px;
+    max-width: 420px;
+  }
+
+  .title__h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .title__h2-light {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .title__h3 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .subtitle__p1 {
+    font-size: 12px;
+  }
+
+  .bg__image-contact {
+    height: 100%;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .bg__image-advantages {
+    margin-top: 50px;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .img-fluid {
+    margin-bottom: 20px;
+    width: 70px;
+  }
+
+  .image__3dhouse1 {
+    width: 300px;
+    height: 190px;
+  }
+
+  .image__3dhouse2 {
+    width: 300px;
+    height: 200px;
+  }
+
+  .image__3dhouse3 {
+    width: 300px;
+    height: 350px;
+  }
+
+  .card-text {
+    max-width: 250px;
+    font-size: 12px;
+  }
+
+  .card__build {
+    height: 100%;
+  }
 }
