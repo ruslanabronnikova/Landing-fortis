@@ -18,14 +18,21 @@
     <nav class="navbar navbar-light">
       <div class="container d-flex justify-content-between align-items-center">
         <a class="navbar-brand" href="#">
-          <img src="./image/logo.svg" alt="Логотип" width="130px" height="66" />
+          <img src="./image/logo.svg" class="navbar__logo" alt="Логотип" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <!-- Здесь добавьте элементы вашего бургер-меню -->
             <li class="nav-item">
               <a class="nav-link" href="#">Главная</a>
             </li>
@@ -35,7 +42,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Услуги</a>
             </li>
-            <!-- Добавьте другие элементы меню по аналогии -->
           </ul>
         </div>
       </div>
@@ -113,11 +119,8 @@
       </h2>
       <div class="row mt-5">
         <div class="col-md-6">
-          <div
-            class="card mb-4"
-            style="height: 319px; background-color: #70948a"
-          >
-            <div class="card-body" style="padding: 0">
+          <div class="card mb-4 card__techs01">
+            <div class="card-body">
               <span class="card-number">01</span>
               <p class="card-text">
                 Современные "умные" дома для интеллектуальных поселков и городов
@@ -125,28 +128,21 @@
               </p>
             </div>
           </div>
-          <div
-            class="card mb-4"
-            style="height: 510px; background-color: #575757"
-          >
-            <div class="card-body" style="padding: 0">
+          <div class="card mb-4 card__techs02">
+            <div class="card-body">
               <span class="card-number">02</span>
               <p class="card-text">Интелектуальные поселки</p>
             </div>
             <img
               src="./image/image-house03.png"
-              class="card-img-bottom"
+              class="card-img-bottom card__img-techs02"
               alt="..."
-              style="height: 378px"
             />
           </div>
         </div>
         <div class="col-md-6">
-          <div
-            class="card mb-4"
-            style="height: 451px; background-color: #575757"
-          >
-            <div class="card-body" style="padding: 0">
+          <div class="card mb-4 card__techs03">
+            <div class="card-body">
               <span class="card-number">03</span>
               <p class="card-text">
                 Автоматизированные агрокомплексы, парковки, складские помещения.
@@ -155,16 +151,12 @@
             </div>
             <img
               src="./image/image-house02.png"
-              class="card-img-bottom"
+              class="card-img-bottom card__img-techs03"
               alt="..."
-              style="height: 289px; margin: 0"
             />
           </div>
-          <div
-            class="card mb-4"
-            style="height: 378px; background-color: #70948a"
-          >
-            <div class="card-body" style="padding: 0">
+          <div class="card mb-4 card__techs04">
+            <div class="card-body">
               <span class="card-number">04</span>
               <p class="card-text">
                 Агрокомплексы будущего, паркинги, складские помещения
@@ -172,9 +164,8 @@
             </div>
             <img
               src="./image/image-house04.png"
-              class="card-img-bottom"
+              class="card-img-bottom card__img-techs04"
               alt="..."
-              style="height: 245px"
             />
           </div>
         </div>
@@ -199,15 +190,7 @@
           />
         </div>
         <div class="col-md-6">
-          <div
-            class="card card__icon mb-3"
-            style="
-              max-width: 590px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              padding-left: 30px;
-            "
-          >
+          <div class="card card__icon mb-3">
             <div class="row align-items-center">
               <div class="col-md-2">
                 <img
@@ -217,7 +200,7 @@
                 />
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card-text card__text-icon">
                     Жестким требованиям по квалификации строителей, прорабов,
                     снабженцев
@@ -227,15 +210,7 @@
             </div>
           </div>
 
-          <div
-            class="card mb-3"
-            style="
-              max-width: 590px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              padding-left: 30px;
-            "
-          >
+          <div class="card card__icon mb-3">
             <div class="row align-items-center">
               <div class="col-md-2">
                 <img
@@ -245,7 +220,7 @@
                 />
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card-text card__text-icon">
                     В условиях дефицита квалифицированных сотрудников – к
                     высокому проценту брака и задержек на каждом этапе
@@ -255,15 +230,7 @@
             </div>
           </div>
 
-          <div
-            class="card mb-3"
-            style="
-              max-width: 590px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              padding-left: 30px;
-            "
-          >
+          <div class="card card__icon mb-3">
             <div class="row align-items-center">
               <div class="col-md-2">
                 <img
@@ -273,7 +240,7 @@
                 />
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card-text card__text-icon">
                     Затянутым срокам производственных процессов на
                     неспециализированных площадках с неотлаженными процессами
@@ -320,7 +287,10 @@
                 <div class="card card__custom-advantages">
                   <div class="card-body">
                     <p class="card__number-advantages">03</p>
-                    <p class="subtitle__p2">Не зависит от<br> ландшафта</p>
+                    <p class="subtitle__p2">
+                      Не зависит от<br />
+                      ландшафта
+                    </p>
                   </div>
                 </div>
               </div>
@@ -348,8 +318,8 @@
       </h2>
       <div class="row d-flex align-items-center mt-5">
         <div class="col-md-6">
-          <div class="card" style="height: 289px; background-color: #70948a">
-            <div class="card-body" style="padding: 0">
+          <div class="card card__custom-invite01">
+            <div class="card-body">
               <span class="card-number">01-этап</span>
               <p class="card-text">
                 Приобрести 2 или более паев стоимостью 50т.р. каждый
@@ -359,8 +329,8 @@
           </div>
         </div>
         <div class="col-md-6 mt-lg-0 mt-md-3 mt-sm-3 container__invite">
-          <div class="card" style="height: 289px; background-color: #575757">
-            <div class="card-body" style="padding: 0">
+          <div class="card card__custom-invite02">
+            <div class="card-body">
               <span class="card-number">02-этап</span>
               <p class="card-text">
                 Оплатить вступительный взнос в программу в размере 10% от общей
@@ -380,9 +350,9 @@
 
     <section class="mt-5 container">
       <h2 class="title__h2">
-        Откройте мир возможностей, которые ждут вас в нашем проекте. Ваше участие
-        не только способствует нашему общему успеху но и принесёт вам ряд
-        значительных выгод:
+        Откройте мир возможностей, которые ждут вас в нашем проекте. Ваше
+        участие не только способствует нашему общему успеху но и принесёт вам
+        ряд значительных выгод:
       </h2>
       <div class="row d-flex align-items-center mt-5 container__peace">
         <div class="col-md-6">
@@ -392,9 +362,9 @@
           <div class="card card__custom-peace mb-3">
             <div class="row align-items-center">
               <div class="col-md-12">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card__number-peace">01</p>
-                  <p class="subtitle__p3" style="color: #454545">
+                  <p class="subtitle__p3-dark">
                     Токены Fortaist на всю сумму вступительного взноса по курсу
                     1 токен = 1т.р. Например, при приобретении 5 паев и оплате
                     Вступительного взноса общей стоимостью 275т.р. Вы получите
@@ -407,9 +377,9 @@
           <div class="card card__custom-peace mb-5">
             <div class="row align-items-center">
               <div class="col-md-12">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card__number-peace">02</p>
-                  <p class="subtitle__p3" style="color: #454545">
+                  <p class="subtitle__p3-dark">
                     По факту сбора паевых взносов на очередной дом, сборки и
                     продажи дома, Вы получаете выгоду в размере 30% от Вашего
                     суммарного паевого взноса. Вы сможете забрать Паевой взнос и
@@ -485,15 +455,7 @@
           Баунти-программа:
         </h2>
         <div class="col-md-6 mt-lg-0 mt-md-3 mt-sm-3 container__bounty-card">
-          <div
-            class="card mb-3"
-            style="
-              max-width: 590px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              padding-left: 30px;
-            "
-          >
+          <div class="card card__icon mb-3">
             <div class="row align-items-center">
               <div class="col-md-2">
                 <img
@@ -503,7 +465,7 @@
                 />
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card-text card__text-icon">
                     Новый пайщик получает дополнительно 1 токен Fortaist за
                     каждый пай
@@ -512,15 +474,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="card mb-3"
-            style="
-              max-width: 590px;
-              padding-top: 20px;
-              padding-bottom: 20px;
-              padding-left: 30px;
-            "
-          >
+          <div class="card card__icon mb-3">
             <div class="row align-items-center">
               <div class="col-md-2">
                 <img
@@ -530,7 +484,7 @@
                 />
               </div>
               <div class="col-md-8">
-                <div class="card-body" style="padding: 0">
+                <div class="card-body">
                   <p class="card-text card__text-icon">
                     Рекомендатель, пригласивший нового пайщика по реферальной
                     ссылке, так же получает 1 токен Fortaist за каждый пай

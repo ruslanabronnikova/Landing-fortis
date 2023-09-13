@@ -45,6 +45,11 @@ li {
   margin-bottom: 0;
 }
 
+.navbar__logo {
+  width: 130px;
+  height: 66;  
+}
+
 .title__h1 {
   font-size: 36px;
   color: var(--text-color);
@@ -119,6 +124,17 @@ li {
 .subtitle__p3 {
   max-width: 479px;
   color: var(--white, #fff);
+  font-family: var(--text-p);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+
+.subtitle__p3-dark {
+  max-width: 479px;
+  color: var(--text-color);
   font-family: var(--text-p);
   font-size: 15px;
   font-style: normal;
@@ -266,6 +282,14 @@ li {
 
 .card__icon {
   background-color: white;
+  max-width: 590px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.card-body{
+  padding: 0;
 }
 
 .card__text-icon {
@@ -286,6 +310,18 @@ li {
 .card__custom-advantages {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
+  background-color: transparent;
+  padding-left: 25px;
+}
+
+.card__custom-invite01 {
+  height: 289px;
+  background-color: #70948a;
+}
+
+.card__custom-invite02 {
+  height: 289px;
+  background-color: #575757;
 }
 
 .card__custom-peace {
@@ -297,9 +333,46 @@ li {
 
 .card__custom-tokens {
   color: white;
-  background-color: transparent;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0;
+  background-color: transparent;
+  padding-left: 25px;
+}
+
+.card__techs01 {
+  height: 319px;
+  background-color: #70948a;
+}
+
+
+.card__techs02 {
+  height: 510px;
+  background-color: #575757;
+}
+
+
+.card__techs03 {
+  height: 451px;
+  background-color: #575757;
+}
+
+
+.card__techs04 {
+  height: 378px;
+  background-color: #575757;
+}
+
+.card__img-techs02 {
+  height: 378px;
+}
+
+.card__img-techs03 {
+  height: 289px;
+  margin: 0;
+}
+
+.card__img-techs04 {
+  height: 245px;
 }
 
 .card__number-peace {
@@ -384,6 +457,10 @@ li {
   }
 
   .subtitle__p3 {
+    font-size: 12px;
+  }
+
+  .subtitle__p3-dark{
     font-size: 12px;
   }
 
